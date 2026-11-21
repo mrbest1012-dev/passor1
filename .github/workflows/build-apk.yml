@@ -22,7 +22,7 @@ jobs:
           cp hokm-single.html www/index.html
           npm init -y
           npm i @capacitor/core@7 @capacitor/cli@7 @capacitor/android@7 capacitor-zeroconf --legacy-peer-deps
-          npx cap init Hokm com.hokm.game --web-dir=www
+          npx cap init PASOOR com.mygame.tictactoe --web-dir=www
           npx cap add android
           npx cap sync android
       - name: Add network and camera permissions
